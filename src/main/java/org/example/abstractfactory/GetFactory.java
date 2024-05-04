@@ -8,5 +8,6 @@ class GetFactory {
         } else if (type.equals("Bank")) {
             return new BankFactory();
         }
+        return null;
     }
 }
